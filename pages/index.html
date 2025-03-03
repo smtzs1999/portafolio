@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__logo">Mi Logo</div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle">☰</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="hero__title">Web Developer</h1>
+            <p class="hero__subtitle">Especializado en desarrollo frontend</p>
+        </section>
+        
+        <section id="about" class="about">
+            <h2 class="about__title">Acerca de mí</h2>
+            <p class="about__description">Lorem ipsum dolor sit amet...</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="skills__title">My Skills</h2>
+            <div class="skills__list">
+                <img src="assets/icons/html5.webp" alt="HTML5" class="skills__icon">
+                <img src="assets/icons/css3.webp" alt="CSS3" class="skills__icon">
+                <img src="assets/icons/js.webp" alt="JavaScript" class="skills__icon">
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="projects__title">Proyectos</h2>
+            <div class="projects__grid">
+                <div class="projects__card">Proyecto 1</div>
+                <div class="projects__card">Proyecto 2</div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="contact__title">Contáctame</h2>
+            <form class="contact__form">
+                <input type="text" placeholder="Nombre" class="contact__input">
+                <input type="email" placeholder="Email" class="contact__input">
+                <textarea placeholder="Mensaje" class="contact__textarea"></textarea>
+                <button type="submit" class="button button--primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">© 2024 - Mi Portfolio</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
