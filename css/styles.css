@@ -175,3 +175,112 @@ body {
     width: 40px;
     height: 40px;
 }
+
+.contact {
+    padding: 50px 10%;
+}
+
+.contact__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact__input, .contact__textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button--primary {
+    background: #c3bfb1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button--primary:hover {
+    background: #ae9530;
+}
+
+
+.hero {
+    padding: 120px 10%;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero__title span {
+    color: #777777;
+}
+
+.hero__subtitle {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.hero__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.logo__text {
+    font-size: 12px; 
+    font-weight: bold;
+    color: white;
+}
+.logo__img {
+    width: 20px; 
+    height: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: rgba(184, 175, 175, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav__link {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
